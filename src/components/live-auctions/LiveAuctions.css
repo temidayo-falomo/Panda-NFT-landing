@@ -11,6 +11,8 @@
 
 .live-auctions .top-row {
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
   align-items: center;
 }
 
@@ -26,12 +28,14 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
+  align-items: center;
   gap: 4rem;
 }
 
 .blur-2 {
   width: 100% !important;
+  min-width: 600px;
   position: fixed;
   left: -5rem;
   top: 0;

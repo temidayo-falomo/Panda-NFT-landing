@@ -14,10 +14,13 @@ function Slideshow() {
           );
         })}
         <div className="slide">
-            <img src="./assets/image-1.svg" alt="" />
+          <img src="./assets/image-1.svg" alt="" />
         </div>
         <div className="slide">
-            <img src="./assets/image-2.svg" alt="" />
+          <img src="./assets/image-2.svg" alt="" />
+        </div>
+        <div className="slide">
+          <img src="./assets/image-3.svg" alt="" />
         </div>
       </div>
     </div>

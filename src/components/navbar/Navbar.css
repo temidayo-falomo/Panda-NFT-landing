@@ -83,3 +83,9 @@ nav button {
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 500px) {
+  nav {
+    width: 95%;
+  }
+}

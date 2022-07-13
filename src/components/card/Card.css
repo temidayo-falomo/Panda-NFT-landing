@@ -17,6 +17,7 @@
 .avatar {
   width: 30px;
   border-radius: 50%;
+  border: 2px var(--color-text) solid;
 }
 
 .bid-btn {
@@ -25,6 +26,13 @@
   background-color: #1e50ff;
   border-radius: 10px;
   color: var(--color-text);
+}
+
+.bid-btn:hover {
+  background-color: transparent;
+  border: 1px var(--blue) solid;
+  color: var(--blue);
+  padding: 9px;
 }
 
 .hold p {

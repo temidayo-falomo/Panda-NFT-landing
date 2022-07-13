@@ -3,9 +3,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 500px;
+  min-height: 450px;
   position: relative;
   color: var(--gray-text);
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .footer-logo {
