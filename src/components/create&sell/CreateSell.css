@@ -1,0 +1,53 @@
+.create-sell {
+  width: 80%;
+  margin: 1rem auto;
+  text-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.create-sell h2 {
+  font-size: 2.5rem;
+  width: 80%;
+  min-width: 350px;
+}
+
+.create-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.create-box {
+  width: 320px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  border-radius: 20px;
+  padding-top: 50px;
+  background-color: #272d37;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.create-box h3 {
+  font-size: 1.2rem;
+}
+
+.create-box img {
+  width: 70px;
+}
+
+.create-box p {
+  color: var(--gray-text);
+  font-size: 0.9rem;
+}

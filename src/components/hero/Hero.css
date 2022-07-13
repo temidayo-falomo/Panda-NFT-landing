@@ -1,0 +1,54 @@
+.hero {
+  width: 90%;
+  margin: 3rem auto;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero h1 {
+  font-size: 3.6rem;
+}
+
+.hero-left {
+  min-width: 650px;
+  align-items: flex-start;
+}
+
+.hero-right {
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.hero-right p {
+  width: 80%;
+  min-width: 260px;
+  color: var(--gray-text);
+  font-weight: 300;
+}
+
+.hero-right .row {
+  cursor: pointer;
+  width: 120px;
+  border-bottom: 2px var(--color-text) solid;
+}
+
+@media (max-width: 1000px) {
+  .hero {
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .hero-left {
+    min-width: 100%;
+  }
+}
