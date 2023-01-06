@@ -1,0 +1,43 @@
+.hot-nfts {
+  min-height: 100px;
+  width: 80%;
+  margin: 4rem auto;
+  gap: 3rem;
+}
+
+.hot-nfts .top-row {
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.hot-nfts .top-row h3 {
+  font-size: 2rem;
+}
+
+.buttons {
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  padding: 12px 20px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px var(--blue) solid;
+  color: var(--color-text);
+}
+
+.buttons .active-btn {
+  background-color: var(--blue);
+  color: var(--color-text);
+}
+
+.hot-nfts-container {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}

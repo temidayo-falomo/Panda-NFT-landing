@@ -1,0 +1,21 @@
+.logos {
+    width: 80%;
+    margin: 5rem auto;
+    min-height: 80px;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    /* position: relative; */
+}
+
+.logos img {
+    width: 150px;
+}
+
+.blur {
+    width: 100% !important;
+    position: absolute;
+    right: -8rem;
+    z-index: -1;
+}

@@ -1,0 +1,43 @@
+.live-auctions {
+  width: 80%;
+  margin: 4rem auto;
+  gap: 3rem;
+  position: relative;
+}
+
+.live-auctions h3 {
+  font-size: 2rem;
+}
+
+.live-auctions .top-row {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.get-started-btn {
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px var(--blue) solid;
+  color: var(--color-text);
+}
+
+.auction-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.blur-2 {
+  width: 100% !important;
+  min-width: 600px;
+  position: fixed;
+  left: -5rem;
+  top: 0;
+  z-index: -1;
+}

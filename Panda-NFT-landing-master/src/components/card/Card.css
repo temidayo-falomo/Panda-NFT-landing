@@ -1,0 +1,42 @@
+.card {
+  padding: 20px;
+  width: 300px;
+  background-color: #272d37;
+  border-radius: 20px;
+  min-height: 420px;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.card .row {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.avatar {
+  width: 30px;
+  border-radius: 50%;
+  border: 2px var(--color-text) solid;
+}
+
+.bid-btn {
+  padding: 10px;
+  width: 100px;
+  background-color: #1e50ff;
+  border-radius: 10px;
+  color: var(--color-text);
+}
+
+.bid-btn:hover {
+  background-color: transparent;
+  border: 1px var(--blue) solid;
+  color: var(--blue);
+  padding: 9px;
+}
+
+.hold p {
+  font-size: 0.8rem;
+  color: var(--gray-text);
+  font-weight: 400;
+}

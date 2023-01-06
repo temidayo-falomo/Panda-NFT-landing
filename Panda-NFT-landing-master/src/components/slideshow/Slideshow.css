@@ -1,0 +1,29 @@
+.slideshow {
+  margin: 2rem auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slide img {
+    width: 320px;
+}
+
+.slide-track {
+  animation: scroll 10s linear infinite;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  transition: 1s ease;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+    transition: 1s ease;
+  }
+  100% {
+    transform: translateX(calc(-200px * 7));
+    transition: 1s ease;
+  }
+}
