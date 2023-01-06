@@ -11,6 +11,8 @@ import Logos from "./components/logos/Logos";
 import Navbar from "./components/navbar/Navbar";
 import Slideshow from "./components/slideshow/Slideshow";
 
+//chaged this line
+
 function App() {
   return (
     <div className="App">
