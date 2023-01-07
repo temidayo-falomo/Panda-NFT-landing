@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Hero.css";
 import { BiLinkExternal } from "react-icons/bi";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Hero() {
+  //AOS
+  useEffect(() => {
+    Aos.init({
+      duration: 1500,
+    });
+  }, []);
+
   return (
-    <div className="hero row">
+    <div className="hero row" data-aos="fade">
       <div className="hero-left">
         <h1>Discover a New Era of Crypto Currency</h1>
       </div>

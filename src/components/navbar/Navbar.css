@@ -36,6 +36,7 @@ nav .logo {
 
 .nav-links li:hover {
   border-bottom: 2px var(--blue) solid;
+  color: #fff;
 }
 
 nav button {

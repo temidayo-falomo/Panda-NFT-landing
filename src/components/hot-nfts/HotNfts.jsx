@@ -5,6 +5,8 @@ import "./HotNfts.css";
 import { nftsData } from "../../NftsData";
 import { hotNftsData } from "./HotNftsData";
 import { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function HotNfts() {
   const [nfts, setNfts] = useState(nftsData);
@@ -28,6 +30,13 @@ function HotNfts() {
     filterItems(category);
   }, []);
 
+  //AOS
+  useEffect(() => {
+    Aos.init({
+      duration: 1500,
+    });
+  }, []);
+
   return (
     <div className="hot-nfts col">
       <div className="top-row row">
@@ -36,6 +45,7 @@ function HotNfts() {
           {hotNftsData.map((btn, index) => {
             return (
               <button
+                data-aos="fade-up"
                 key={index}
                 onClick={() => filterItems(btn.category, index)}
                 className={`normal-btn ${index === number && "active-btn"}`}
@@ -56,7 +66,11 @@ function HotNfts() {
             .slice(0)
             .reverse()
             .map((data, index) => {
-              return <Card key={index} {...data} />;
+              return (
+                <div data-aos="fade-up" key={index}>
+                  <Card {...data} />
+                </div>
+              );
             })
         ) : (
           <h3 style={{ margin: "auto", color: "orange" }}>

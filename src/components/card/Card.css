@@ -1,11 +1,21 @@
 .card {
   padding: 20px;
   width: 300px;
+  /* height: 450px; */
+  max-height: 450px;
   background-color: #272d37;
   border-radius: 20px;
   min-height: 420px;
   justify-content: space-between;
   gap: 0.5rem;
+}
+
+.top-img {
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-bottom: 0.5rem;
+  background-color: black;
 }
 
 .card .row {
@@ -33,6 +43,7 @@
   border: 1px var(--blue) solid;
   color: var(--blue);
   padding: 9px;
+  font-weight: 600;
 }
 
 .hold p {

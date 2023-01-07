@@ -5,17 +5,22 @@ import "./Card.css";
 function Card(props) {
   return (
     <div className="card col">
-      <div className="top-img">
-        <img src={props.image} alt="" />
+      <div
+        className="top-img"
+        style={{
+          backgroundImage: `url(${props.image})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      >
+        {/* <img src={props.image} alt="" loading="lazy" /> */}
       </div>
 
       <div className="row">
         <h5 style={{ fontSize: "1rem" }}>
           {props.name} {props.number}
         </h5>
-        <span style={{ fontSize: ".8rem", color: "#adb9c7" }}>
-          Current Bid
-        </span>
+        <span style={{ fontSize: ".8rem", color: "#adb9c7" }}>Current Bid</span>
       </div>
 
       <div className="row">

@@ -41,3 +41,16 @@
   justify-content: center;
   gap: 4rem;
 }
+
+@media (max-width: 440px) {
+  .hot-nfts .top-row {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+  .buttons {
+    align-items: center;
+    justify-content: center;
+  }
+}

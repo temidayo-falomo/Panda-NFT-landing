@@ -11,7 +11,6 @@
 
 .live-auctions .top-row {
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
 }
@@ -40,4 +39,12 @@
   left: -5rem;
   top: 0;
   z-index: -1;
+}
+
+@media (max-width: 440px) {
+  .live-auctions .top-row {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
 }

@@ -1,11 +1,4 @@
 .banner {
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.2);
-  border-radius: 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 30px;
   min-height: 300px;
   width: 60%;
@@ -34,4 +27,12 @@
   border-radius: 10px;
   font-weight: 500;
   font-size: 1rem;
+}
+
+.banner button:hover {
+  background-color: transparent;
+  border: 2px var(--blue) solid;
+  color: var(--blue);
+  padding: 11px 24px;
+  font-weight: 600;
 }
