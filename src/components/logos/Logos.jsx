@@ -5,7 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 
 function Logos() {
-  //AOS
+  //UseEffect to load Aos
   useEffect(() => {
     Aos.init({
       duration: 1500,
